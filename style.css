@@ -17,6 +17,13 @@ header {
     padding: 1rem 1rem;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
 .parent {
     display: flex;
     gap: 1rem;
@@ -45,5 +52,5 @@ header {
 .child-four {
     height: 200px;
     width: 300px;
-    background-color: royalblue;
+    background-color: rosybrown;
 }
